@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "kind": "app",
+  "title": "Pixel Loom",
+  "repository": "kata-app-inspired-by-aseprite-codex-dot",
+  "section": "Kata Tool Shed",
+  "category": "Graphics",
+  "tagline": "A little world, one pixel at a time.",
+  "description": "A local-first pixel-art and flipbook editor. Draw on transparent layers, animate small sprites, and export PNG frames or sprite sheets.",
+  "entryPoint": "index.html",
+  "status": "publication-prepared",
+  "features": [
+    "Pixel pencil, eraser, fill, picker, line and rectangle tools",
+    "Named transparent layers with opacity and visibility",
+    "32-frame flipbook with onion skin and playback",
+    "Undo and redo",
+    "Editable project save/open and browser autosave",
+    "Transparent PNG and horizontal sprite-sheet export"
+  ],
+  "screenshots": [
+    {
+      "src": "docs/screenshots/desktop.jpg",
+      "width": 1165,
+      "height": 961,
+      "alt": "Pixel Loom desktop workbench showing the original Mosslight cottage pixel-art demo, tools, layers and flipbook",
+      "caption": "Original three-layer, four-frame demo in the desktop workbench.",
+      "capturedAt": "2026-11-10T00:48:18.480564+00:00",
+      "sha256": "08a36f94fea78d182e31870244a3c19e3e0d970e8d3bf25083668a5ee2ffa6fc",
+      "source": "http://127.0.0.1:4173/",
+      "captureMethod": "Chromium via CUA; genuine full-page browser screenshot, no image editing."
+    },
+    {
+      "src": "docs/screenshots/mobile.jpg",
+      "width": 485,
+      "height": 1417,
+      "alt": "Pixel Loom mobile workbench showing the original Mosslight cottage pixel-art demo, tools, layers and flipbook",
+      "caption": "Original three-layer, four-frame demo in the 500 CSS-pixel-wide responsive layout.",
+      "capturedAt": "2026-11-10T00:48:18.482180+00:00",
+      "sha256": "2d5e2be3238eb505f8dca05b9d6abfe4f1b968d0b5643026a26638017130dddd",
+      "source": "http://127.0.0.1:4173/",
+      "captureMethod": "Chromium via CUA; genuine full-page browser screenshot, no image editing."
+    }
+  ],
+  "inspiration": {
+    "name": "Aseprite",
+    "url": "https://www.aseprite.org/"
+  },
+  "license": "MIT",
+  "repositoryUrl": "https://github.com/intrepion/kata-app-inspired-by-aseprite-codex-dot",
+  "appUrl": "https://intrepion.github.io/kata-app-inspired-by-aseprite-codex-dot/"
+}

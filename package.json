@@ -1,0 +1,16 @@
+{
+  "name": "kata-app-inspired-by-aseprite-codex-dot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixel Loom: an original local-first pixel art and flipbook workbench for Kata Tool Shed.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check src/app.js && node --check src/model.js && node --check src/demo.js && node --check server.mjs && npm test",
+    "build": "node scripts/build.mjs"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
