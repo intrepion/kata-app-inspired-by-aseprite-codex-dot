@@ -8,7 +8,7 @@
   "tagline": "A little world, one pixel at a time.",
   "description": "A local-first pixel-art and flipbook editor. Draw on transparent layers, animate small sprites, and export PNG frames or sprite sheets.",
   "entryPoint": "index.html",
-  "status": "publication-prepared",
+  "status": "published",
   "features": [
     "Pixel pencil, eraser, fill, picker, line and rectangle tools",
     "Named transparent layers with opacity and visibility",

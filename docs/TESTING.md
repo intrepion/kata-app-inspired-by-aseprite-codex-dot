@@ -36,3 +36,16 @@ Used the supported managed HTTP preview at `http://127.0.0.1:4173/` in Chromium 
 ## Coverage limits
 
 This was a focused Chromium workflow pass, not a comprehensive cross-browser, assistive-technology, touch-device, performance or penetration audit. The narrow layout was a resized browser window, not physical-phone testing. Layer reordering, rename, opacity, each brush size and every keyboard chord have model/source coverage as applicable, but were not all individually exercised in the browser. Edge-case validation and resource caps were automated; storage exhaustion and 32-frame/12-layer maximum-size rendering were not load tested.
+
+## Publication verification
+
+User-approved public release on 2026-11-10:
+
+- Repository: https://github.com/intrepion/kata-app-inspired-by-aseprite-codex-dot
+- App: https://intrepion.github.io/kata-app-inspired-by-aseprite-codex-dot/
+- Initial app commit: `8692b5e0c3a2c1028f6b5ac07b6f58e2289b1585`.
+- Check/build and Pages deployment passed: https://github.com/intrepion/kata-app-inspired-by-aseprite-codex-dot/actions/runs/42731831783
+- Verified live HTTP 200 responses and exact byte equality against the local build for index.html, styles.css, favicon.svg, src/app.js, src/model.js, and src/demo.js.
+- Mac transfer was independently checked: all 15 tests/build passed and both screenshot SHA-256 hashes matched.
+- The only publication-time UI change was the product mark linking back to the verified Kata Tool Shed at https://intrepion.github.io/tools/. Screenshots remain accurately labeled local pre-publication captures.
+- GitHub reported action-runtime deprecation notices while successfully completing both jobs; these were warnings, not failed checks.
